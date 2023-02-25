@@ -86,16 +86,16 @@ run_test() {
     start=$(date +%s) 
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 3 ]]; then
-        speed_test '四川成都' '电信' '' 'aHR0cDovL1syNDBlOjE2OjEwMDE6MTUwOjozXTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL1syNDBlOjE2OjEwMDE6MTUwOjozXTo4MDgwL3VwbG9hZA=='
-        speed_test '甘肃' '电信' '' 'aHR0cDovL1syNDBlOjJhOjE6ZmYwMDo6Ml06ODA4MC9kb3dubG9hZA==' 'aHR0cDovL1syNDBlOjJhOjE6ZmYwMDo6Ml06ODA4MC91cGxvYWQ='
+        speed_test '四川成都' '电信' '-6' 'aHR0cDovL1syNDBlOjE2OjEwMDE6MTUwOjozXTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovL1syNDBlOjE2OjEwMDE6MTUwOjozXTo4MDgwL3VwbG9hZA=='
+        speed_test '甘肃' '电信' '-6' 'aHR0cDovL1syNDBlOjJhOjE6ZmYwMDo6Ml06ODA4MC9kb3dubG9hZA==' 'aHR0cDovL1syNDBlOjJhOjE6ZmYwMDo6Ml06ODA4MC91cGxvYWQ='
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 4 ]]; then
-        speed_test '上海5G' '联通' '' 'aHR0cDovL1syNDA4OjgwMDA6OTAwMDoyMGU2Ojo1ZGRdOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL1syNDA4OjgwMDA6OTAwMDoyMGU2Ojo1ZGRdOjgwODAvdXBsb2Fk'
+        speed_test '上海5G' '联通' '-6' 'aHR0cDovL1syNDA4OjgwMDA6OTAwMDoyMGU2Ojo1ZGRdOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL1syNDA4OjgwMDA6OTAwMDoyMGU2Ojo1ZGRdOjgwODAvdXBsb2Fk'
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 5 ]]; then
-        speed_test '北京' '移动' '' 'aHR0cDovL1syNDA5OjgwODc6MDoyMDoyMDo6MTJdOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL1syNDA5OjgwODc6MDoyMDoyMDo6MTJdOjgwODAvdXBsb2Fk'
+        speed_test '北京' '移动' '-6' 'aHR0cDovL1syNDA5OjgwODc6MDoyMDoyMDo6MTJdOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL1syNDA5OjgwODc6MDoyMDoyMDo6MTJdOjgwODAvdXBsb2Fk'
     fi
 
     if [[ ${selection} == 6 ]]; then
